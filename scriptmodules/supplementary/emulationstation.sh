@@ -20,7 +20,7 @@ function depends_emulationstation() {
         libasound2-dev cmake libsdl2-dev
 }
 function sources_emulationstation() {
-    gitPullOrClone "$md_build" "https://github.com/retropie/EmulationStation"
+    gitPullOrClone "$md_build" "https://github.com/ipappous/EmulationStation"
 }
 
 function build_emulationstation() {
